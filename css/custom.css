@@ -74,7 +74,7 @@ a:focus{
 html,
 body{
 	width: 100%;
-	overflow-x: clip;
+	/* overflow-x: clip; */
 }
 
 .container{
@@ -395,6 +395,26 @@ body{
 /**** 	   03. Header css		 ****/
 /************************************/
 
+
+
+.bg-grey{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+	background-color: #0070b0 !important;
+}
+.btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.modal-content {
+border-radius: 40px !important;
+
+}
+
+
 header.main-header{
 	background-color: transparent;
 	border-bottom: 1px solid var(--dark-divider-color);
@@ -667,7 +687,16 @@ header.main-header .header-sticky.active{
 /************************************/
 /***        04. Hero css	      ***/
 /************************************/
-
+.bg-section-video{
+	margin: 0 20px;
+	overflow: hidden;
+	border-radius: 40px;
+	background: url("../images/hero-bg.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 170px 0 170px;
+	position: relative;
+	margin-top: -103px;	
+}
 .hero.bg-section{
 	margin: 0 20px;
 	overflow: hidden;
@@ -1558,7 +1587,9 @@ header.main-header .header-sticky.active{
 /************************************/
 /***      13. Contact Us Css	  ***/
 /************************************/
-
+.modal-content {
+	background-color: transparent !important;
+}
 .contact-us{
 	background: var(--secondary-color) url("../images/contact-us-bg.png") no-repeat;
 	background-position: center center;
@@ -1614,8 +1645,12 @@ header.main-header .header-sticky.active{
 	filter: grayscale(80%);
 }
 
+.contact-form-back{
+	background: url('../images/back-modal.png');
+	/* background-color: #0070b0 !important; */
+}
 .contact-form{
-	background-color: var(--white-color);
+	/* background-color: var(--white-color); */
 	border-radius: 40px;
 	padding: 50px;
 }

@@ -44,67 +44,7 @@
 		</div>
 	</div>
 	<!-- Preloader End -->
-    <div class="modal fade" id="initialPopup" tabindex="-1" aria-labelledby="initialPopupLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-        <div class="modal-dialog  modal-dialog-centered modal-lg">
-            <div class="modal-content">
-               
-                <div class="bg-grey">
- <!-- Close Button -->
- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                   
-               
-                <div class="col-lg-12 col-md-12">
-                    <!-- Contact Form start -->
-                    <div class="contact-form contact-form-back wow fadeInUp" data-wow-delay="0.25s">
-                    
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">contact us</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Get in touch with us</h2>
-                        </div>
-                      
-                         
-                        <form id="contactForm" action="#" method="POST" data-toggle="validator">
-                            <div class="row">
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your name" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                    
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter Your email" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                    
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone number" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                    
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="website" class="form-control" id="website" placeholder="Subject" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                    
-                                <div class="form-group col-md-12 mb-5">
-                                    <textarea name="msg" class="form-control" id="msg" rows="3" placeholder="Message" required=""></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                    
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn-default">submit</button>
-                                    <div id="msgSubmit" class="h3 hidden"></div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- Contact Form end -->
-                </div>
-            </div>
-          
-        </div>
-    </div>
-    
+
     <!-- Header Start -->
 	<header class="main-header">
 		<div class="header-sticky">
@@ -264,86 +204,38 @@
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
-    <div class="hero bg-section hero-slider">
-        <div class="hero-slider-layout">
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <!-- Hero Slide Start -->
-                    <div class="swiper-slide">
-                        <div class="hero-slide">
-                            <!-- Slider Image Start -->
-                            <div class="hero-slider-image">
-                                <img src="images/hero-bg.jpg" alt="">
-                            </div>
-                            <!-- Slider Image End -->
-    
-                            <!-- Slider Content Start -->
-                            <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <!-- Hero Content Start -->
-                                        <div class="hero-content">
-                                            <div class="section-title">
-                                                <h3 class="wow fadeInUp text-col-head">welcome to Sparc Global</h3>
-                                                <h1 class="text-anime-style-3" data-cursor="-opaque">Digitalization & <br/>Workflow integration</h1>
-                                                <p class="wow fadeInUp" data-wow-delay="0.25s">Optimizing and
-                                                    future-proofing business processes</p>
-                                            </div>
-    
-                                            <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                                                <a href="#" class="btn-default">get started</a>
-                                                <a href="#" class="btn-default btn-highlighted">view Projects</a>
-                                            </div>
-                                        </div>
-                                        <!-- Hero Content End -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Slider Content End -->
+    <div class="hero bg-section-video hero-video">
+        <!-- Video Start -->
+        <div class="hero-bg-video">
+			<!-- Selfhosted Video Start -->
+			<video autoplay muted loop id="myVideo"><source src="images/hero-bg-video.mp4" type="video/mp4"></video>
+			<!-- Selfhosted Video End -->
+
+			<!-- Youtube Video Start -->
+				<!-- <div id="herovideo" class="player" data-property="{videoURL:'TzfnlPxCZv0',containment:'.hero-video', showControls:false, autoPlay:true, loop:true, vol:0, mute:false, startAt:0,  stopAt:296, opacity:1, addRaster:true, quality:'large', optimizeDisplay:true}"></div> -->
+			<!-- Youtube Video End -->
+		</div>
+		<!-- Video End -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Hero Content Start -->
+                    <div class="hero-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp text-col-head pt-4">welcome to Sparc Global</h3>
+                            <h1 class="text-anime-style-3" data-cursor="-opaque">Digitalization & <br/>Workflow integration</h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Optimizing and
+                                future-proofing business processes</p>
+                        </div>
+
+                        <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
+                            <a href="#" class="btn-default">get started</a>
+                            <a href="#" class="btn-default btn-highlighted">view Projects</a>
                         </div>
                     </div>
-                    <!-- Hero Slide End -->
-    
-                    <!-- Hero Slide Start -->
-                    <div class="swiper-slide">
-                        <div class="hero-slide">
-                            <!-- Slider Image Start -->
-                            <div class="hero-slider-image">
-                                <img src="images/hero-bg-2.jpg" alt="">
-                            </div>
-                            <!-- Slider Image End -->
-    
-                            <!-- Slider Content Start -->
-                            <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <!-- Hero Content Start -->
-                                        <div class="hero-content">
-                                            <div class="section-title">
-                                                <h3 class="wow fadeInUp text-col-head">welcome to Sparc Global</h3>
-                                                <h1 class="text-anime-style-3" data-cursor="-opaque">
-                                                    Navigating <br/>the future
-                                                  </h1>
-                                                <p class="wow fadeInUp" data-wow-delay="0.25s">Leveraging precise
-                                                    location data for digital inclusion </p>
-                                            </div>
-    
-                                            <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                                                <a href="#" class="btn-default">get started</a>
-                                                <a href="#" class="btn-default btn-highlighted">view Projects</a>
-                                            </div>
-                                        </div>
-                                        <!-- Hero Content End -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Slider Content End -->
-                        </div>
-                    </div>
-                    <!-- Hero Slide End -->
+                    <!-- Hero Content End -->
                 </div>
-                <div class="swiper-pagination"></div>
-            </div>  
+            </div>
         </div>
     </div>
 	<!-- Hero Section End -->
@@ -1319,7 +1211,7 @@
 
                 <div class="col-lg-8 col-md-7">
                     <!-- Contact Form start -->
-                    <div class="contact-form wow fadeInUp bg-white" data-wow-delay="0.25s">
+                    <div class="contact-form wow fadeInUp" data-wow-delay="0.25s">
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contact us</h3>
@@ -1523,12 +1415,6 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
 	<script src="../../assets/js/theme-panel.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var myModal = new bootstrap.Modal(document.getElementById('initialPopup'));
-            myModal.show();
-        });
-    </script>
 </body>
 
 </html>
