@@ -1671,6 +1671,22 @@ header.main-header .header-sticky.active{
 	text-transform: capitalize;
 }
 
+
+/* .contact-form .form-control-up{
+	padding: 15px;
+	background-color: transparent;
+	color: #fff;
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0;
+}
+
+.contact-form .form-control-up::placeholder{
+	color: #fff;
+	opacity: 20%;
+	text-transform: capitalize;
+} */
 /************************************/
 /***    	14. Footer css		  ***/
 /************************************/
