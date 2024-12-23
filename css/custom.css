@@ -1285,11 +1285,20 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .cta-box{
-	position: relative;
+	/* position: relative;
 	background: var(--primary-color) url("../images/cta-box-bg.png") no-repeat;
 	background-position: right bottom;
 	background-size: auto;
-	padding: 100px 0;
+	padding: 100px 0; */
+
+
+	position: relative;
+    background: var(--primary-color) url(../images/cta-box-bg.png) no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+
 }
 
 .cta-box .section-title h2{
