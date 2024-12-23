@@ -16,6 +16,7 @@
 	--default-font			: "DM Sans", sans-serif;
 	--accent-font			: "Manrope", sans-serif;
 	--text-col-head			: #72bde9;
+	--blue-back             : #12223B;
 }
 
 /************************************/
@@ -151,6 +152,10 @@ body{
 .row.no-gutters > *{
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.blue-back{
+	background-color: var(--blue-back)  !important;
 }
 
 .btn-default{
@@ -970,8 +975,9 @@ header.main-header .header-sticky.active{
     bottom: 0;
     right: 0;
     left: 0;
-	background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgba(0, 0, 0, 0.51) 42.5%, rgba(0, 0, 0, 0.63) 70%, #000000 100%);
-	border-radius: 40px;
+	/* background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgba(0, 0, 0, 0.51) 42.5%, rgba(0, 0, 0, 0.63) 70%, #000000 100%); */
+	background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgb(0 0 0 / 21%) 42.5%, rgb(0 0 0 / 16%) 70%, #000000 100%);
+	border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center center;
 	z-index: 1;
@@ -988,6 +994,7 @@ header.main-header .header-sticky.active{
 
 .service-item:hover .service-image img{
     transform: scale(1.1);
+	/* background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgba(0, 0, 0, 0.51) 42.5%, rgba(0, 0, 0, 0.63) 70%, #000000 100%); */
 }
 
 .service-body{
@@ -999,11 +1006,13 @@ header.main-header .header-sticky.active{
     z-index: 2;
 	transform: translateY(70%);
     transition: all 0.5s ease-in-out;
+
 }
 
 .service-item:hover .service-body{
 	transform: translateY(0%);
 	bottom: 20px;
+	
 }
 
 .service-body-title h3{
@@ -1173,7 +1182,8 @@ header.main-header .header-sticky.active{
     bottom: 0;
     right: 0;
     left: 0;
-	background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgba(0, 0, 0, 0.51) 42.5%, rgba(0, 0, 0, 0.63) 70%, #000000 100%);
+	/* background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgba(0, 0, 0, 0.51) 42.5%, rgba(0, 0, 0, 0.63) 70%, #000000 100%); */
+	background:linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13.02%, rgba(0, 0, 0, 0.51) 42.5%, rgb(0 0 0 / 11%) 70%, #00000029 100%);
 	border-radius: 40px;
     background-repeat: no-repeat;
     background-position: center center;
